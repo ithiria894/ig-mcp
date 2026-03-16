@@ -19,7 +19,6 @@ nest-asyncio>=1.5.0
 # Data handling
 python-multipart>=0.0.6
 pillow>=10.0.0
-openpyxl>=3.1.0  # Excel export for insights cron
 
 # Logging and monitoring
 structlog>=23.2.0
