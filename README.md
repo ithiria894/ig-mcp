@@ -18,6 +18,8 @@ Instagram MCP server — **23 tools** for the Instagram Graph API via [Model Con
 
 Manage posts, comments, DMs, stories, hashtags, reels, carousels, and analytics from Claude Code, Cursor, or any MCP client.
 
+[![instagram-mcp MCP server](https://glama.ai/mcp/servers/mcpware/instagram-mcp/badges/card.svg)](https://glama.ai/mcp/servers/mcpware/instagram-mcp)
+
 ## Quick Start
 
 ```bash
