@@ -1,0 +1,49 @@
+{
+  "name": "@mcpware/ig-mcp",
+  "version": "1.0.0",
+  "description": "Instagram MCP server — 23 tools for the Instagram Graph API. Manage posts, comments, DMs, stories, hashtags, reels, carousels, and analytics.",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "ig-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "instagram",
+    "instagram-api",
+    "graph-api",
+    "meta",
+    "social-media",
+    "ai-agent",
+    "claude",
+    "model-context-protocol",
+    "instagram-mcp",
+    "instagram-bot",
+    "instagram-automation",
+    "instagram-analytics",
+    "instagram-dm",
+    "instagram-reels",
+    "instagram-stories"
+  ],
+  "author": "mcpware",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ithiria894/ig-mcp-ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "@types/node": "^22.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
