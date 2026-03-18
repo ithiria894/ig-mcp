@@ -1,6 +1,6 @@
-# @mcpware/ig-mcp
+# @mcpware/instagram-mcp
 
-[![npm version](https://img.shields.io/npm/v/@mcpware/ig-mcp.svg)](https://www.npmjs.com/package/@mcpware/ig-mcp)
+[![npm version](https://img.shields.io/npm/v/@mcpware/instagram-mcp.svg)](https://www.npmjs.com/package/@mcpware/instagram-mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js](https://img.shields.io/badge/node-%3E%3D20-brightgreen)](https://nodejs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-blue)](https://www.typescriptlang.org/)
@@ -13,7 +13,7 @@ Manage posts, comments, DMs, stories, hashtags, reels, carousels, and analytics 
 ## Quick Start
 
 ```bash
-npx @mcpware/ig-mcp
+npx @mcpware/instagram-mcp
 ```
 
 ### Claude Code / Cursor `.mcp.json`
@@ -23,7 +23,7 @@ npx @mcpware/ig-mcp
   "mcpServers": {
     "instagram": {
       "command": "npx",
-      "args": ["-y", "@mcpware/ig-mcp"],
+      "args": ["-y", "@mcpware/instagram-mcp"],
       "env": {
         "INSTAGRAM_ACCESS_TOKEN": "your-meta-long-lived-token",
         "INSTAGRAM_ACCOUNT_ID": "your-ig-business-account-id"
@@ -109,7 +109,7 @@ The returned `access_token` is valid for 60 days.
 ```bash
 export INSTAGRAM_ACCESS_TOKEN="your-long-lived-token"
 export INSTAGRAM_ACCOUNT_ID="your-ig-business-account-id"
-npx @mcpware/ig-mcp
+npx @mcpware/instagram-mcp
 ```
 
 ### Troubleshooting

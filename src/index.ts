@@ -471,7 +471,7 @@ async function handleTool(name: string, args: any): Promise<string> {
 // ─── MCP Server ──────────────────────────────────────────────────────
 
 const server = new Server(
-  { name: "ig-mcp", version: "1.0.0" },
+  { name: "instagram-mcp", version: "1.0.0" },
   { capabilities: { tools: {} } }
 );
 
@@ -504,7 +504,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
 async function main() {
   const transport = new StdioServerTransport();
   await server.connect(transport);
-  console.error("ig-mcp server running");
+  console.error("instagram-mcp server running");
 }
 
 main().catch((error) => {
