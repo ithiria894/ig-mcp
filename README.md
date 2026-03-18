@@ -1,6 +1,12 @@
 # @mcpware/ig-mcp
 
-Instagram MCP server — 23 tools for the Instagram Graph API via [Model Context Protocol](https://modelcontextprotocol.io).
+[![npm version](https://img.shields.io/npm/v/@mcpware/ig-mcp.svg)](https://www.npmjs.com/package/@mcpware/ig-mcp)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Node.js](https://img.shields.io/badge/node-%3E%3D20-brightgreen)](https://nodejs.org)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.7-blue)](https://www.typescriptlang.org/)
+[![MCP](https://img.shields.io/badge/MCP-compatible-purple)](https://modelcontextprotocol.io)
+
+Instagram MCP server — **23 tools** for the Instagram Graph API via [Model Context Protocol](https://modelcontextprotocol.io).
 
 Manage posts, comments, DMs, stories, hashtags, reels, carousels, and analytics from Claude Code, Cursor, or any MCP client.
 
