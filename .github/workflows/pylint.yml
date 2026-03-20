@@ -51,7 +51,7 @@ jobs:
     - name: Analyze code with Pylint
       run: |
         echo "🔍 Running Pylint analysis..."
-        pylint src/ --rcfile=.pylintrc --output-format=github
+        pylint src/ --rcfile=.pylintrc --output-format=github --fail-under=9.0
         echo "✅ Pylint analysis completed successfully!"
 
     - name: Generate Pylint report

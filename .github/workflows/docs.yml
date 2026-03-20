@@ -16,6 +16,9 @@ on:
       - 'README.md'
       - 'AUTHENTICATION_GUIDE.md'
 
+permissions:
+  contents: write
+
 jobs:
   docs:
     name: Build Documentation
